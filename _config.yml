@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Meghan Paquette
+title: Hey, It's Meghan!
 
 # Your name to show in the footer
 author: Meghan Paquette
@@ -15,7 +15,8 @@ author: Meghan Paquette
 
 navbar-links:
   About Me: "AboutMe"
-  Music: "Music"
+  Work & Education: "WorkEducation"
+  Fun Facts: "FunFacts"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -41,11 +42,11 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "megpaquette7@gmail.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+#  facebook: deanattali
+  github: "MeghanPaquette"
+#  twitter: daattali
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: "meghan.paquette"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -64,14 +65,14 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+
 
 # --- General options --- #
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   linkedin: true
   vk: false
 
@@ -95,16 +96,16 @@ feed_show_tags: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-col: "#9F9FFF"
+navbar-text-col: "#FFFFFF"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
-text-col: "#404040"
+text-col: "#2D2D70"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-col: "#9F9FFF"
+footer-text-col: "#FFFFFF"
+footer-link-col: "#2D2D70"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
