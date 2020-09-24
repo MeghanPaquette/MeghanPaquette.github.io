@@ -6,7 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: Hey, It's Meghan!
+title: Meghan Paquette
+
+# Short description of your site
+description: Get to know me more about me!
 
 # Your name to show in the footer
 author: Meghan Paquette
@@ -14,13 +17,12 @@ author: Meghan Paquette
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "AboutMe"
-  Work & Education: "WorkEducation"
-  Fun Facts: "FunFacts"
+  About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - Getting Started: "getstarted"                         
+  Author's home: "http://deanattali.com"
 
 # --- Logo --- #
 
@@ -42,17 +44,17 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "megpaquette7@gmail.com"
-#  facebook: deanattali
+  facebook: ""
   github: "MeghanPaquette"
 #  twitter: daattali
 #  reddit: yourname
-  linkedin: "meghan.paquette"
+  linkedin: "meghanpaquette"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
+  snapchat: ""
+  instagram: "meghan_patrice"
+  youtube: user/deanat78
+  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
@@ -78,7 +80,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://www.linkedin.com/in/meghanpaquette/"
+url-pretty: "linkedin.com/in/meghanpaquette/"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
