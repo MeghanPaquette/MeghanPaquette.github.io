@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Me
+subtitle: Fun Facts and Such
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Meghan Paquette. Here are some fun facts:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I love to travel, escpecially with my friends. 
+- Music and theatre are two of my hobbies. 
+- In 2019, I took part in four musicals including Phantom of the Opera. 
+- For work, I am a director in student services at a community college. 
+- I have degrees from Stony Brook University in Psychology (BA) and Business (MBA). 
+- Currenly, I am working on a second masters at Arizona State University (MS). 
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
