@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Build your website in 3 steps
+title: Build a Website 
+subtitle: Just 3 steps
 ---
 
 There's a very easy way to use this theme, and there's a hard way. For most people (including myself!), I suggest going the easy route. If you're an advanced user and want to tinker with the hard way (using ruby gems), then [skip the easy way](https://github.com/daattali/beautiful-jekyll#the-hard-way-using-ruby-gems) if you know what you're doing.
