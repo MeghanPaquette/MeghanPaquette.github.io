@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Build your website in 3 steps
 ---
 
