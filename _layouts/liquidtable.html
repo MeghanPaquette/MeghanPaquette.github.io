@@ -182,25 +182,25 @@ layout: default
 
         ---
         layout: liquid-table
-        title: 'Ireland'
-        reynolds:
+        title: 'Ireland or France?'
+        Ireland:
           strengths:
-          - good father
-          - funny
-          - dated alanis morissette
+          - Hiking and gorgeous green scenery
+          - Nice locals
+          - Music and entertainment
           weaknesses: 
-          - singing
-          - green lantern movie
-          - tennis backhand 
-        gosling:
+          - rainy/cloudy weather
+          - heavy food
+          - honestly, it is awesome!
+        France:
           strengths: 
-          - builds houses
-          - is a real boy
-          - never dated alanis morissette
+          - Fashion
+          - Museums and Art
+          - Eifel Tower, Versailles, etc. Lots of places to see 
           weaknesses: 
-          - micky mouse club
-          - cries a lot
-          - not ryan reynolds
+          - Pickpockets
+          - Locals not super friendly
+          - Lots of Tourists
         ---
 
        ###
@@ -214,14 +214,14 @@ layout: default
        ###  &lt;li> list item 
        ###
 
-        &lt;h2> Ryan vs Ryan &lt;/h2>
+        &lt;h2> Ireland vs France &lt;/h2>
 
-        &lt;table id="ryan-v-ryan">
+        &lt;table id="ireland-v-france">
 
         &lt;thead>
           &lt;tr>
-            &lt;th>  &lt;h3>  Ryan Reynolds  &lt;/h3>  &lt;/th>
-            &lt;th>  &lt;h3>  Ryan Gosling  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  Ireland  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  France  &lt;/h3>  &lt;/th>
           &lt;/tr>
         &lt;/thead>
 
@@ -232,27 +232,27 @@ layout: default
             &lt;ul>
 
               ###  LIQUID LOOPS WITH YAML DATA
-              ###  reynolds:
+              ###  ireland:
               ###    strengths:
-              ###    - good father
-              ###    - funny
-              ###    - dated alanis morissette
+              ###    - Hiking and gorgeous green scenery
+              ###    - Nice locals
+              ###    - Music and entertainment
 
-              &lbrace;% for item in page.reynolds.strengths %}
+              &lbrace;% for item in page.ireland.strengths %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
               ###    LIQUID LOOP CREATES HTML CODES:
-              ###    &lt;li> good father &lt;/li>
-              ###    &lt;li> funny &lt;/li>
-              ###    &lt;li> dated alanis morissette &lt;/li>        
+              ###    &lt;li> Hiking and gorgeous green scenery &lt;/li>
+              ###    &lt;li> Nice locals &lt;/li>
+              ###    &lt;li> Music and entertainment &lt;/li>        
 
             &lt;/ul>
             &lt;br>
-            &lt;h4>  Weaknessess  &lt;/h4>
+            &lt;h4>  Weaknesses  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.reynolds.weaknesses %}
+              &lbrace;% for item in page.ireland.weaknesses %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
@@ -262,16 +262,16 @@ layout: default
             &lt;h4>  Strengths  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.gosling.strengths %}
+              &lbrace;% for item in page.france.strengths %}
                 &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
             &lt;/ul>
             &lt;br>
-            &lt;h4>  Weaknessess  &lt;/h4>
+            &lt;h4>  Weaknesses  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.gosling.weaknesses %}
+              &lbrace;% for item in page.france.weaknesses %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
