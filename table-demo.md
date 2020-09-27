@@ -1,24 +1,25 @@
 ---
 layout: liquid-table
 title: 'Ireland vs France'
-reynolds:
+Ireland:
   strengths:
-  - good father
-  - funny
-  - dated alanis morissette
+  - Hiking and gorgeous green scenery
+  - Nice locals
+  - Music and entertainment
   weaknesses: 
-  - singing
-  - green lantern movie
-  - tennis backhand 
-gosling:
+  - Rainy/cloudy weather
+  - Heavy food
+  - Honestly, it is awesome!
+
+France:
   strengths: 
-  - builds houses
-  - is a real boy
-  - never dated alanis morissette
+  - Fashion
+  - Museums and Art
+  - Eifel Tower, Versailles, etc. Lots of places to see
   weaknesses: 
-  - micky mouse club
-  - cries a lot
-  - not ryan reynolds
+  - Pickpockets
+  - Locals not super friendly
+  - Lots of Tourists
 ---
 
 
