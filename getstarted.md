@@ -1,5 +1,5 @@
 ---
-layout: page2
+layout: default
 title: Getting Started
 subtitle: Liquid Table
 ---
