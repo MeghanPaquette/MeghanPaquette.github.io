@@ -3,16 +3,23 @@ layout: page2
 title: Getting Started
 subtitle: Liquid Table
 ---
+---
+layout: nice-text
+---
+  
+{{ content }}
 
 
-<h2> Ireland vs France </h2>
 
-<table id="ireland-v-france">
+
+<h2> Ryan vs Ryan: Liquid Table Demo </h2>
+
+<table id="ryan-v-ryan">
 
 <thead>
   <tr>
-    <th>  <h3>  Ireland  </h3>  </th>
-    <th>  <h3>  France  </h3>  </th>
+    <th>  <h3>  Ryan Reynolds  </h3>  </th>
+    <th>  <h3>  Ryan Gosling  </h3>  </th>
   </tr>
 </thead>
 
@@ -27,7 +34,7 @@ subtitle: Liquid Table
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.ireland.strengths %}
+      {% for item in page.reynolds.strengths %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -35,10 +42,10 @@ subtitle: Liquid Table
     
     <br>
 
-    <h4>  Weaknesses  </h4>
+    <h4>  Weaknessess  </h4>
     <ul>
       
-      {% for item in page.ireland.weaknesses %}
+      {% for item in page.reynolds.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -54,7 +61,7 @@ subtitle: Liquid Table
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.france.strengths %}
+      {% for item in page.gosling.strengths %}
         <li>{{ item }}</li>
       {% endfor %}
       
@@ -62,10 +69,10 @@ subtitle: Liquid Table
     
     <br>
     
-    <h4>  Weaknesses  </h4>
+    <h4>  Weaknessess  </h4>
     <ul>
       
-      {% for item in page.france.weaknesses %}
+      {% for item in page.gosling.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -180,8 +187,8 @@ subtitle: Liquid Table
 
         ---
         layout: liquid-table
-        title: 'Ireland or France?'
-        Ireland:
+        title: 'amiright?'
+        reynolds:
           strengths:
           - good father
           - funny
@@ -190,7 +197,7 @@ subtitle: Liquid Table
           - singing
           - green lantern movie
           - tennis backhand 
-        France:
+        gosling:
           strengths: 
           - builds houses
           - is a real boy
@@ -212,14 +219,14 @@ subtitle: Liquid Table
        ###  &lt;li> list item 
        ###
 
-        &lt;h2> Ireland vs France &lt;/h2>
+        &lt;h2> Ryan vs Ryan &lt;/h2>
 
-        &lt;table id="ireland-v-france">
+        &lt;table id="ryan-v-ryan">
 
         &lt;thead>
           &lt;tr>
-            &lt;th>  &lt;h3>  Ireland  &lt;/h3>  &lt;/th>
-            &lt;th>  &lt;h3>  France  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  Ryan Reynolds  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  Ryan Gosling  &lt;/h3>  &lt;/th>
           &lt;/tr>
         &lt;/thead>
 
@@ -230,13 +237,13 @@ subtitle: Liquid Table
             &lt;ul>
 
               ###  LIQUID LOOPS WITH YAML DATA
-              ###  ireland:
+              ###  reynolds:
               ###    strengths:
               ###    - good father
               ###    - funny
               ###    - dated alanis morissette
 
-              &lbrace;% for item in page.ireland.strengths %}
+              &lbrace;% for item in page.reynolds.strengths %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
@@ -247,10 +254,10 @@ subtitle: Liquid Table
 
             &lt;/ul>
             &lt;br>
-            &lt;h4>  Weaknesses  &lt;/h4>
+            &lt;h4>  Weaknessess  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.ireland.weaknesses %}
+              &lbrace;% for item in page.reynolds.weaknesses %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
@@ -260,16 +267,16 @@ subtitle: Liquid Table
             &lt;h4>  Strengths  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.france.strengths %}
+              &lbrace;% for item in page.gosling.strengths %}
                 &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
             &lt;/ul>
             &lt;br>
-            &lt;h4>  Weaknesses  &lt;/h4>
+            &lt;h4>  Weaknessess  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.france.weaknesses %}
+              &lbrace;% for item in page.gosling.weaknesses %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
@@ -287,4 +294,21 @@ subtitle: Liquid Table
 
 
 <style>
+  pre{
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #eee;
+  width: 750px!ie7;
+  padding-bottom: 20px!ie7;
+}
+
+ui {
+  padding-inline-start: 10px;
+  }
   
+table {
+  margin-left: 20px;
+  }
+  
+</style>
