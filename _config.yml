@@ -36,7 +36,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: /assets/img/795C8ED7-288E-4A52-9238-881B668DBF7E_1_105_c.jpeg
+cover-img: /assets/img/795C8ED7-288E-4A52-9238-881B668DBF7E_1_105_c.jpeg
 
 
 # --- Footer social media links --- #
