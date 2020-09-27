@@ -33,22 +33,22 @@ subtitle: Added Per lab
   }
   
 .pretty-text h1 {
-  color: darkred;
+  color: darkblue;
   font-size: 40px;
 }
 
 .pretty-text h2 {
-  color: darkred;
+  color: darkblue;
   font-size: 30px;
   margin-top: 60px;
 }
 
 .pretty-text h3 {
-  color: darkred;
+  color: darkblue;
 }
 
 .pretty-text a {
-  color: darkred;
+  color: darkblue;
 }
   
 .pretty-text img {
