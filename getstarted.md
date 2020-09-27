@@ -87,14 +87,14 @@ layout: nice-text
 
 
 
-<h2> Ryan vs Ryan: Liquid Table Demo </h2>
+<h2> Ireland vs France: Liquid Table Update </h2>
 
-<table id="ryan-v-ryan">
+<table id="ire-v-fra">
 
 <thead>
   <tr>
-    <th>  <h3>  Ryan Reynolds  </h3>  </th>
-    <th>  <h3>  Ryan Gosling  </h3>  </th>
+    <th>  <h3>  Ireland  </h3>  </th>
+    <th>  <h3>  France  </h3>  </th>
   </tr>
 </thead>
 
@@ -109,7 +109,7 @@ layout: nice-text
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.reynolds.strengths %}
+      {% for item in page.ireland.strengths %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -120,7 +120,7 @@ layout: nice-text
     <h4>  Weaknessess  </h4>
     <ul>
       
-      {% for item in page.reynolds.weaknesses %}
+      {% for item in page.ireland.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -136,7 +136,7 @@ layout: nice-text
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.gosling.strengths %}
+      {% for item in page.france.strengths %}
         <li>{{ item }}</li>
       {% endfor %}
       
@@ -147,7 +147,7 @@ layout: nice-text
     <h4>  Weaknessess  </h4>
     <ul>
       
-      {% for item in page.gosling.weaknesses %}
+      {% for item in page.france.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -262,25 +262,25 @@ layout: nice-text
 
         ---
         layout: liquid-table
-        title: 'amiright?'
-        reynolds:
+        title: 'Ireland or France?'
+        Ireland:
           strengths:
-          - good father
-          - funny
-          - dated alanis morissette
+          - Hiking and gorgeous green scenery
+          - Nice locals
+          - Music and entertainment
           weaknesses: 
-          - singing
-          - green lantern movie
-          - tennis backhand 
-        gosling:
+          - rainy/cloudy weather
+          - heavy food
+          -  
+        France:
           strengths: 
-          - builds houses
-          - is a real boy
-          - never dated alanis morissette
+          - Fashion
+          - Museums and Art
+          - Eifel Tower, Versailles, etc. Lots of places to see. 
           weaknesses: 
-          - micky mouse club
-          - cries a lot
-          - not ryan reynolds
+          - Pickpockets
+          - Not as Nice Locals
+          - Lots of Tourists
         ---
 
        ###
@@ -294,14 +294,14 @@ layout: nice-text
        ###  &lt;li> list item 
        ###
 
-        &lt;h2> Ryan vs Ryan &lt;/h2>
+        &lt;h2> Ireland vs. France &lt;/h2>
 
-        &lt;table id="ryan-v-ryan">
+        &lt;table id="ire-v-fra">
 
         &lt;thead>
           &lt;tr>
-            &lt;th>  &lt;h3>  Ryan Reynolds  &lt;/h3>  &lt;/th>
-            &lt;th>  &lt;h3>  Ryan Gosling  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  Ireland  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  France  &lt;/h3>  &lt;/th>
           &lt;/tr>
         &lt;/thead>
 
@@ -312,27 +312,27 @@ layout: nice-text
             &lt;ul>
 
               ###  LIQUID LOOPS WITH YAML DATA
-              ###  reynolds:
+              ###  Ireland:
               ###    strengths:
-              ###    - good father
-              ###    - funny
-              ###    - dated alanis morissette
+              ###    - Hiking and gorgeous green scenery
+              ###    - Nice locals
+              ###    - Music and entertainment
 
-              &lbrace;% for item in page.reynolds.strengths %}
+              &lbrace;% for item in page.Ireland.strengths %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
               ###    LIQUID LOOP CREATES HTML CODES:
-              ###    &lt;li> good father &lt;/li>
-              ###    &lt;li> funny &lt;/li>
-              ###    &lt;li> dated alanis morissette &lt;/li>        
+              ###    &lt;li> Hiking and gorgeous green scenery &lt;/li>
+              ###    &lt;li> Nice locals &lt;/li>
+              ###    &lt;li> Music and entertainment &lt;/li>        
 
             &lt;/ul>
             &lt;br>
             &lt;h4>  Weaknessess  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.reynolds.weaknesses %}
+              &lbrace;% for item in page.Ireland.weaknesses %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
@@ -342,7 +342,7 @@ layout: nice-text
             &lt;h4>  Strengths  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.gosling.strengths %}
+              &lbrace;% for item in page.france.strengths %}
                 &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
@@ -351,7 +351,7 @@ layout: nice-text
             &lt;h4>  Weaknessess  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.gosling.weaknesses %}
+              &lbrace;% for item in page.france.weaknesses %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
