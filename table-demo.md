@@ -1,6 +1,6 @@
 ---
 layout: liquid-table
-title: 'amiright?'
+title: 'Ireland vs France'
 reynolds:
   strengths:
   - good father
