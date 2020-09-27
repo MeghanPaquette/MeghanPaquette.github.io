@@ -1,7 +1,7 @@
 ---
-layout:
-title: 
-subtitle: 
+layout: page
+title: Getting Started
+subtitle: Liquid Table
 ---
 
 ---
