@@ -87,7 +87,8 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 
 <br>
 
-### Congratulations! You have a website!
+
+### 4. Congratulations! You have a website!
 
 After you save your changes to the `_config.yml` file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
 
@@ -236,12 +237,21 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
   
   .gs-section-01 p{font-size: 30px;}
   
-  .gs-section-02-03 h2{
+  .gs-section-02 h2{
     color: darkgreen;
     font-size: 20px
     }
-   .gs-section-02-03 p{
+   .gs-section-02 p{
     color: lightgreen;
     font-size: 15px
+    }
+    
+  gs-section-02 h2{
+    color: purple;
+    font-size: 30px
+    }
+   .gs-section-02 p{
+    color: pink;
+    font-size: 20px
     }
 </style>
