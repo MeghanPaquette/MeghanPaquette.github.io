@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 subtitle: Fun Facts and Such
+cover-img: /assets/img/A5BF3E67-4772-4901-8CAF-F8325BDC729C_1_105_c.jpeg
 ---
 
 My name is Meghan Paquette. Here are some fun facts:
