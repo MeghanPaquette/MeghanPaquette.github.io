@@ -2,9 +2,9 @@
 layout: post
 title: Ireland Summer 2017
 subtitle: 8 days in the Emerald Isle
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/2F9F919A-187D-4E49-A57C-3922C498061F_1_105_c.jpeg
+thumbnail-img: /assets/img/44C24829-A869-444A-B914-A6EE36912183_1_105_c.jpeg
+share-img: /assets/img/2F9F919A-187D-4E49-A57C-3922C498061F_1_105_c.jpeg
 tags: [travel, ireland]
 ---
 
