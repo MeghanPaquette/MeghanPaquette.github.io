@@ -1,11 +1,7 @@
 ---
-layout: page
+layout: default
 title: Getting Started
 subtitle: Liquid Table
----
-
----
-layout: default
 ---
   
 {{ content }}
@@ -35,7 +31,7 @@ layout: default
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.reynolds.strengths %}
+      {% for item in page.ireland.strengths %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -43,10 +39,10 @@ layout: default
     
     <br>
 
-    <h4>  Weaknessess  </h4>
+    <h4>  Weaknesses  </h4>
     <ul>
       
-      {% for item in page.reynolds.weaknesses %}
+      {% for item in page.ireland.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -62,7 +58,7 @@ layout: default
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.gosling.strengths %}
+      {% for item in page.france.strengths %}
         <li>{{ item }}</li>
       {% endfor %}
       
@@ -70,10 +66,10 @@ layout: default
     
     <br>
     
-    <h4>  Weaknessess  </h4>
+    <h4>  Weaknesses  </h4>
     <ul>
       
-      {% for item in page.gosling.weaknesses %}
+      {% for item in page.france.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -188,7 +184,7 @@ layout: default
 
         ---
         layout: liquid-table
-        title: 'amiright?'
+        title: 'Ireland or France?'
         reynolds:
           strengths:
           - good father
@@ -220,14 +216,14 @@ layout: default
        ###  &lt;li> list item 
        ###
 
-        &lt;h2> Ryan vs Ryan &lt;/h2>
+        &lt;h2> Ireland vs France &lt;/h2>
 
-        &lt;table id="ryan-v-ryan">
+        &lt;table id="ireland-v-france">
 
         &lt;thead>
           &lt;tr>
-            &lt;th>  &lt;h3>  Ryan Reynolds  &lt;/h3>  &lt;/th>
-            &lt;th>  &lt;h3>  Ryan Gosling  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  Ireland  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  France  &lt;/h3>  &lt;/th>
           &lt;/tr>
         &lt;/thead>
 
@@ -238,13 +234,13 @@ layout: default
             &lt;ul>
 
               ###  LIQUID LOOPS WITH YAML DATA
-              ###  reynolds:
+              ###  ireland:
               ###    strengths:
               ###    - good father
               ###    - funny
               ###    - dated alanis morissette
 
-              &lbrace;% for item in page.reynolds.strengths %}
+              &lbrace;% for item in page.ireland.strengths %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
@@ -255,10 +251,10 @@ layout: default
 
             &lt;/ul>
             &lt;br>
-            &lt;h4>  Weaknessess  &lt;/h4>
+            &lt;h4>  Weaknesses  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.reynolds.weaknesses %}
+              &lbrace;% for item in page.ireland.weaknesses %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
@@ -268,16 +264,16 @@ layout: default
             &lt;h4>  Strengths  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.gosling.strengths %}
+              &lbrace;% for item in page.france.strengths %}
                 &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
             &lt;/ul>
             &lt;br>
-            &lt;h4>  Weaknessess  &lt;/h4>
+            &lt;h4>  Weaknesses  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.gosling.weaknesses %}
+              &lbrace;% for item in page.france.weaknesses %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
