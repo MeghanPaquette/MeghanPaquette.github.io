@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ireland: Summer 2017
+title: Ireland Summer 2017
 subtitle: 8 days in the Emerald Isle
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
