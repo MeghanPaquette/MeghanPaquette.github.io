@@ -16,7 +16,7 @@ France:
   - Museums and Art
   - Eifel Tower, Versailles, etc. Lots of places to see 
   weaknesses: 
-  - mPickpockets
+  - Pickpockets
   - Locals not super friendly
   - Lots of Tourists
 ---
