@@ -291,21 +291,4 @@ subtitle: Liquid Table
 
 
 <style>
-  pre{
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  margin-bottom: 10px;
-  padding: 5px;
-  background-color: #eee;
-  width: 750px!ie7;
-  padding-bottom: 20px!ie7;
-}
-
-ui {
-  padding-inline-start: 10px;
-  }
   
-table {
-  margin-left: 20px;
-  }
-  
-</style>
