@@ -18,6 +18,7 @@ author: Meghan Paquette
 
 navbar-links:
   About Me: "aboutme"
+  Liquid Table: "liquidtable"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
