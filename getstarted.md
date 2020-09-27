@@ -1,95 +1,15 @@
 ---
-layout: page
+layout: nice-text
 title: Getting Started
 subtitle: Added Per lab
 ---
-<div class="pretty-text">
-
-<h1>{{ page.title }}</h1>
   
 {{ content }}
-  
-</div>
-
-
-
-  
-  
-
-
-<style>
-
-.pretty-text {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding-left: 30px;
-  padding-right: 30px;
-  text-align: justify;
-}
-
-.pretty-text p {
-  line-height: 1.8;
-  padding-bottom: 80px;
-  }
-  
-.pretty-text h1 {
-  color: darkblue;
-  font-size: 40px;
-}
-
-.pretty-text h2 {
-  color: darkblue;
-  font-size: 30px;
-  margin-top: 60px;
-}
-
-.pretty-text h3 {
-  color: darkblue;
-}
-
-.pretty-text a {
-  color: darkblue;
-}
-  
-.pretty-text img {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
-  width: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.pretty-text img:hover {
-  box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.5);
-}
-
-pre{
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  margin-bottom: 10px;
-  padding: 5px;
-  background-color: #eee;
-  width: 750px!ie7;
-  padding-bottom: 20px!ie7;
-}
-  
-</style>
-
----
-layout: nice-text
----
-  
-{{ content }}
-
-
 
 
 <h2> Ireland vs France: Liquid Table Update </h2>
 
-<table id="ire-v-fra">
+<table id="Ireland-v-France">
 
 <thead>
   <tr>
@@ -109,7 +29,7 @@ layout: nice-text
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.ireland.strengths %}
+      {% for item in page.Ireland.strengths %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -120,7 +40,7 @@ layout: nice-text
     <h4>  Weaknessess  </h4>
     <ul>
       
-      {% for item in page.ireland.weaknesses %}
+      {% for item in page.Ireland.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -136,7 +56,7 @@ layout: nice-text
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.france.strengths %}
+      {% for item in page.France.strengths %}
         <li>{{ item }}</li>
       {% endfor %}
       
@@ -147,7 +67,7 @@ layout: nice-text
     <h4>  Weaknessess  </h4>
     <ul>
       
-      {% for item in page.france.weaknesses %}
+      {% for item in page.France.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -296,7 +216,7 @@ layout: nice-text
 
         &lt;h2> Ireland vs. France &lt;/h2>
 
-        &lt;table id="ire-v-fra">
+        &lt;table id="Ireland-v-France">
 
         &lt;thead>
           &lt;tr>
@@ -342,7 +262,7 @@ layout: nice-text
             &lt;h4>  Strengths  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.france.strengths %}
+              &lbrace;% for item in page.France.strengths %}
                 &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
@@ -351,7 +271,7 @@ layout: nice-text
             &lt;h4>  Weaknessess  &lt;/h4>
             &lt;ul>
 
-              &lbrace;% for item in page.france.weaknesses %}
+              &lbrace;% for item in page.France.weaknesses %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
               &lbrace;% endfor %}
 
