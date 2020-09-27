@@ -3,10 +3,6 @@ layout: default
 title: Getting Started
 subtitle: Liquid Table
 ---
-  
-{{ content }}
-
-
 
 
 <h2> Ireland vs France </h2>
@@ -185,7 +181,7 @@ subtitle: Liquid Table
         ---
         layout: liquid-table
         title: 'Ireland or France?'
-        reynolds:
+        Ireland:
           strengths:
           - good father
           - funny
@@ -194,7 +190,7 @@ subtitle: Liquid Table
           - singing
           - green lantern movie
           - tennis backhand 
-        gosling:
+        France:
           strengths: 
           - builds houses
           - is a real boy
