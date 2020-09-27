@@ -85,6 +85,8 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 </p> 
 </div>
 
+<br>
+
 ### Congratulations! You have a website!
 
 After you save your changes to the `_config.yml` file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
