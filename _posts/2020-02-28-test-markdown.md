@@ -5,7 +5,7 @@ subtitle: Small Role in the Biggest Show
 thumbnail-img: https://www.signalsaz.com/wp-content/uploads/2019/11/Phantom-1.jpg
 ---
 
-In Fall 2019, a small AZ community theater took on Broadway's longest running show: Phantom of the Opera. This is no small undertaking given the dramatic and larger than life nature of the sets, costume, and music. The production was truly a community effort. 
+In Fall 2019, a small AZ community theater took on Broadway's longest running show: Phantom of the Opera. This is no small undertaking given the dramatic and larger than life nature of the sets, costume, and music. The production was truly a community effort.  
 
 ## Behind the Scenes
 
