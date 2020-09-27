@@ -13,7 +13,6 @@ Costumes & Sets
 
 ![Phantom](https://www.signalsaz.com/wp-content/uploads/2019/11/Phantom-1.jpg)
 
-It can also be centered!
 
 ![Cast](https://1.bp.blogspot.com/-7QbWbILaUlI/XczkE0LS0OI/AAAAAAAA0lI/vBYCsMZie-sbDdT4zrZ35qVDTkgWdblXwCNcBGAsYHQ/s640/Press%2BNight%2B1.jpg)
 
